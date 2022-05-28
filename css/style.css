@@ -1,0 +1,12 @@
+.menu-image{
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(0deg, rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 0.5)), url(../img/Header.png);
+}
+
+.first-back{
+  background: url(../img/cafécru.png);
+  width: 704px;
+  height: 560px;
+}
