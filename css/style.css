@@ -1,16 +1,114 @@
-.logo {
-  position: absolute;
-  top: 10px;
-  
-  width: 40px;
-  height: 28px;
+.logo h2 {
+  position: relative;
+  display: block;
+  text-align: center;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 28px;
+  color: white;
 }
 
 .header{
   background-image: url("../img/Header.png");
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+
+.buy{
+  position: absolute;
+  left: 96.86%;
+  right: 17.86%;
+  top: 3.10%;
+  bottom: 14.29%;
+}
+
+.menu-icon img{
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  left: 4px;
+  top: 7px;
+}
+
+.text-first h1{
+  position: absolute;
+  width: 780px;
+  height: 264px;
+  left: 80px;
+  top: 130px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 120px;
+
+  color: white;
+}
+
+.text-first p{
+  position: absolute;
+  width: 459px;
+  height: 40px;
+  left: 80px;
+  top: 560px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: white;
+}
+
+.arrow-left{
+  position: absolute;
+  left: 80px;
+  top: 740px;
+}
+
+  .arrow-left a{
+    position: absolute ;
+    left: 20px;
+    top: 20px ;
+  }
+
+  .arrow-right{
+    position: absolute;
+    left: 160px;
+    top: 740px;
+  }
+
+  .arrow-right a{
+    position: absolute ;
+    left: 23px;
+    top: 20px 
+  }
+
+.img-one{
+  position: absolute;
+  background-image: url("../img/cafécru.png");
+  width: 704px;
+  height: 560px;
+}
+
+.img-two{
+  position: absolute;
+  width: 704px;
+  height: 560px;
+  background-image: url("../img/Rectangle\ 20.png");
+}
+
+.location-map img{
+  width: 1240px;
+  height: 412px;
+  left: 80px;
+  top: 5096px;
 }
