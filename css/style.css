@@ -43,8 +43,9 @@
   padding: 18px;
 }
 
-.bar-white img{
+.bar-white{
   margin-top: 100px;
+  margin-left: 90px;
 }
 
 .prelude-content h2{
@@ -70,3 +71,13 @@ padding-left: 90px;
 
 color: #FFFFFF;
 }
+
+.arrow-left{
+  margin-left: 90px;
+}
+
+.arrow-right{
+  margin-left: 20px;
+}
+
+
