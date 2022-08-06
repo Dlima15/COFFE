@@ -1,3 +1,7 @@
+.body{
+  background:#f8f8f7;
+}
+
 .prelude{
   background-image: url("../img/Header.png");
   width: 100%;
@@ -134,4 +138,113 @@ color: #0B1D03;
   /* Coffee / Hover */
   
   color: #A0996C;
+}
+
+.product{
+  padding-top: 10px;
+}
+
+.products-02{
+  padding-top: 0px;
+}
+
+.container-product{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.product{
+  width: 459px;
+  height: 560px;
+  background: #F7F1E6;
+  border-radius: 8px;
+}
+
+.product p{
+  padding: 40px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  /* Coffee / Black */
+  
+  color: #0B1D03;
+}
+
+.product img{
+  margin-left: 130px;
+  margin-top: -50px;
+}
+
+
+.first-value{
+  padding-top: -1500px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #0B1D03;
+}
+
+.second-value{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.04em;  
+  
+  color: #969696;
+}
+
+.button-kart{
+  margin-left: 32px;
+  margin-top: 95px;
+}
+
+.product button{
+  height: 76px;
+  width: 395px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+/* background abaixo*/
+  background-color: #0B1D03;
+  border-radius: 4px;
+  background-position: 0 150px;
+}
+
+.container-services{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  align-items: center;
+}
+
+.services p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  color: #0B1D03;
 }
