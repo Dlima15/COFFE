@@ -27,11 +27,13 @@
 }
 
 .menu-button{
+  cursor: pointer;
   height: 80px;
   width: 88px;
 }
 
 .header_logo{
+  cursor: pointer;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
@@ -43,14 +45,35 @@
 }
 
 .cart_button{
+  cursor: pointer;
   height: 30px;
   width: 28px;
   padding: 18px;
 }
 
-.bar-white{
-  margin-top: 150px;
+.slider-tracks{
+  display: flex;
   margin-left: 90px;
+  margin-top: 90px;
+}
+
+.slider-tracks__item{
+  width: 32px;
+  height: 4px;
+  opacity: 50%;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: .5s background, .5s opacity;
+}
+
+.slider-tracks__item:hover{
+  background-color: white;
+  opacity: 1;
+}
+
+.slider-tracks__item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .prelude-content h2{
@@ -80,11 +103,17 @@ color: #FFFFFF;
 }
 
 .arrow-left{
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
   padding-top: 70px;
   margin-left: 90px;
 }
 
 .arrow-right{
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
   padding-top: 70px;
   margin-left: 20px;
 }
@@ -221,6 +250,7 @@ color: #0B1D03;
 }
 
 .button-kart{
+  cursor: pointer;
   margin-left: 32px;
   margin-top: 95px;
 }
