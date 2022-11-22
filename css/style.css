@@ -567,8 +567,233 @@ color: #0B1D03;
   padding-bottom: 30px;
 }
 
+/* Form patness*/
+
+.container-all-itens{
+  display: flex;
+}
+
+.container-product-form{
+  margin-top: 24px;
+  margin-left: 48px;
+}
+
+.name-product-form h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #0B1D03;
+}
+
+.product-iten01{
+  margin: 19px;
+}
+
+.product-text-form{
+  margin-top: 28px;
+}
+
+.product-text-form h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  color: #0B1D03;
+}
+
+.product-text-form h3{
+margin-top: 3px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+color: #0B1D03;
+}
+
+.product-text-form h4{
+margin-top: 9px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
 
 
+letter-spacing: 0.04em;
+
+color: #A0996C;
+}
+
+.product-desc{
+  margin-top: 16px;
+  display: flex;
+  width: 403px;
+  height: 164px;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.container-inputs{
+  margin-left: 49px;
+  margin-top: 28px;
+}
+
+.title-form{
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.dados-form{
+  color: #0B1D03;
+}
+
+.pag-form{
+  color: #969696;
+}
+
+.concluir-form{
+  color: #969696;
+}
+
+.title-form h2{
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.delete-button{
+  width: 18px;
+  height: 18px;
+  margin-left: 200px;
+}
+
+.title-form img{
+  padding: 5px;
+}
+
+.inputs-form{
+  margin-top: 39px;
+}
+
+.name input{
+  padding-left: 28px;
+  padding-top: 4px;
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+
+  width: 656px;
+  height: 76px;
+  box-sizing: border-box;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+}
+
+.number input{
+  padding-left: 28px;
+  padding-top: 4px;
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+
+  margin-top: 24px;
+  width: 656px;
+  height: 76px;
+  box-sizing: border-box;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+}
+
+.email input{
+  padding-left: 28px;
+  padding-top: 4px;
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+
+  margin-top: 24px;
+  width: 656px;
+  height: 76px;
+  box-sizing: border-box;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+}
+
+.andress input{
+  padding-left: 28px;
+  padding-top: 4px;
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+
+  margin-left: -36px;
+  margin-top: 24px;
+  width: 656px;
+  height: 76px;
+  box-sizing: border-box;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+}
+
+.coment textarea{
+  padding-left: 28px;
+  padding-top: 24px;
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+
+  margin-top: 24px;
+  width: 656px;
+  height: 238px;
+  box-sizing: border-box;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+}
+
+.button-01{
+  margin-top: 24px;
+  width: 656px;
+  height: 76px;
+  background: #0B1D03;
+  border-radius: 4px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+/* end partness form*/
 
 /* reset in css*/
 
