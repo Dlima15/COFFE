@@ -567,7 +567,7 @@ color: #0B1D03;
   padding-bottom: 30px;
 }
 
-/* Form patness*/
+/* Form patness
 
 .container-all-itens{
   width: 100%;
@@ -833,38 +833,289 @@ color: #0B1D03;
   cursor: not-allowed;
 }
 
-/* end partness form*/
+/* partness form*/
 
-/* payment partness
+.container-all-itens{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  background-image: url(../img/Group\ 30.png);
 
-.containerall-payment{
-  max-width: 100%;
-  height: 900px;
-  background-image: url("../img/Group\ 30.png")
+  margin-bottom: 50px;
 }
 
-.product-payment h2{
-  font-family: 'lato';
+.modaln2{
+  position: absolute;
+  left: 47.9%;
+  display: flex;
+}
+
+.container-general{
+  width: 400px;
+  height: 290px;
+  background: #FFFFFF;
+}
+
+.container-product-form{
+  margin-top: 45px;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.name-product-form h2{
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 40px;
+  
   color: #0B1D03;
 }
 
-.container-product-payment{
-  width: 403px;
+.product-iten01{
+  margin: 19px;
+}
+
+.product-text-form{
+  margin-top: 28px;
+}
+
+.line-division{
+  width: 1px;
+  height: 290px;
+  background: #C4C4C4;
+}
+
+.product-text-form h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  color: #0B1D03;
+}
+
+.product-text-form h3{
+margin-top: 3px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+color: #0B1D03;
+}
+
+.product-text-form h4{
+margin-top: 9px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+
+
+letter-spacing: 0.04em;
+
+color: #A0996C;
+}
+
+.product-desc{
+  margin-top: 16px;
+  display: flex;
+  width: 370px;
   height: 164px;
   background: #F2F2F2;
   border-radius: 4px;
 }
 
-.container-product-payment{
-  width: 24px;
-  height: 24px;
+.container-inputs{
+  background: #FFFFFF;
+  width: 480px;
+  height: 600px;
 }
 
-*/
+.title-form{
+  margin-top: 45px;
+  margin-left: 40px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.arrow-form{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.dados-form{
+  color: #A0996C;
+}
+
+.pag-form{
+  color: #0B1D03;
+}
+
+
+.title-form h2{
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.delete-button{
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  margin-top: -10px;
+  margin-left: 80px;
+  
+}
+
+.title-form img{
+  padding: 5px;
+}
+
+.inputs-form{
+  margin-left: 40px;
+  margin-top: 39px;
+}
+
+.card{
+  width: 180px;
+  height: 50px;
+  background: #0B1D03;
+  border-radius: 4px;
+  border-color: #0B1D03;
+  border: 0px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+
+text-align: center;
+
+
+
+color: #FFFFFF;
+
+cursor: pointer;
+}
+
+.button-payment{
+  display: flex;
+}
+
+.money{
+  margin-left: 9px;
+  width: 180px;
+  height: 50px;
+  background: #F2F2F2;
+  border-radius: 4px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+
+text-align: center;
+
+
+border: 0px;
+
+color: #0B1D03;
+
+cursor: pointer;
+}
+
+.number-card input{
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 15px;
+  line-height: 28px;
+  
+  color: #969696;
+
+  transition: 0.5s box-shadow;
+}
+
+.inputs-form:focus{
+  box-shadow: 0px 0px 13px 0px #bdbdbd;
+}
+
+.dados-card input{
+  margin-top: 20px;
+  width: 162px;
+  height: 50px;
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 15px;
+  line-height: 28px;
+}
+
+.name-card input{
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+
+  border: 2px solid #0B1D03;
+  border-radius: 4px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 15px;
+  line-height: 28px;
+  
+  color: #969696;
+}
+
+.concluir-payment button{
+  cursor: pointer;
+  margin-top: 80px;
+  width: 370px;
+  height: 50px;
+  background: #0B1D03;
+  border-radius: 4px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.button-01:disabled{
+  background-color: #bbb;
+  color: #333;
+  cursor: not-allowed;
+}
+
+/* end partness form*/
+
 
 /* reset in css*/
 
