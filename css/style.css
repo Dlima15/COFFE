@@ -578,11 +578,14 @@ color: #0B1D03;
 /* Form patness-----------*/
 
 .container-all-itens{
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: flex-end;
 
   width: 100%;
-  height: 800px;
+  height: 100%;
   display: block;
   background: rgba(0, 0, 0, 0.4);
 
