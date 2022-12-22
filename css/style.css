@@ -7,7 +7,7 @@
 
 .prelude{
   background-image: url("../img/Header.png");
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -33,7 +33,7 @@
 
 .header_logo{
   cursor: pointer;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -76,7 +76,7 @@
 }
 
 .prelude-content h2{
-font-family: 'Playfair Display';
+font-family: 'Playfair Display', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 70px;
@@ -90,7 +90,7 @@ padding-top: 50px;
 }
 
 .prelude-content p{
-font-family: 'Lato';
+font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
@@ -135,7 +135,7 @@ color: #FFFFFF;
 /* A aplicação de um texto ja serve pro outro de outra classe */
 
 .text-content-01 h2{
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 38px;
@@ -145,7 +145,7 @@ color: #FFFFFF;
 }
 
 .text-content-01 p{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 28px;
@@ -164,7 +164,7 @@ color: #0B1D03;
   width: 370px;
 
   padding-left: 80px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -200,7 +200,7 @@ color: #0B1D03;
 
 .product p{
   padding-top: 20px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -226,7 +226,7 @@ color: #0B1D03;
 }
 
 .first-value{
-  font-family: 'Manrope';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -238,7 +238,7 @@ color: #0B1D03;
 }
 
 .second-value{
-  font-family: 'Manrope';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -257,7 +257,7 @@ color: #0B1D03;
 .product button{
   height: 76px;
   width: 395px;
-  font-family: 'Manrope';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -284,7 +284,7 @@ color: #0B1D03;
 }
 
 .services p{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -319,7 +319,7 @@ color: #0B1D03;
 }
 
 .catalog-one h2{
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -330,7 +330,7 @@ color: #0B1D03;
 }
 
 .catalog-one p{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -351,7 +351,7 @@ color: #0B1D03;
 }
 
 .catalog-two h2{
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -362,7 +362,7 @@ color: #0B1D03;
 }
 
 .catalog-two p{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -382,7 +382,7 @@ color: #0B1D03;
 }
 
 .title-map h2{
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -410,7 +410,7 @@ color: #0B1D03;
 }
 
 .city{
-  font-family: 'Lato';
+  font-family: 'Lato',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -423,7 +423,7 @@ color: #0B1D03;
 
 
 .andress{
-  font-family: 'Lato';
+  font-family: 'Lato',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -458,7 +458,7 @@ color: #0B1D03;
 .footer-logo{
   width: 151px;
   height: 28px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -489,7 +489,7 @@ color: #0B1D03;
 }
 
 .inst h2{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -503,7 +503,7 @@ color: #0B1D03;
 
 .inst a{
   text-decoration: none;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -522,7 +522,7 @@ color: #0B1D03;
 }
 
 .products-footer h2{
-  font-family: 'lato';
+  font-family: 'lato',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -536,7 +536,7 @@ color: #0B1D03;
 
 .products-footer a{
   text-decoration: none;
-  font-family: 'lato';
+  font-family: 'lato',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -550,7 +550,7 @@ color: #0B1D03;
 }
 
 .social-net h2{
-  font-family: 'Lato';
+  font-family: 'Lato',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -565,7 +565,7 @@ color: #0B1D03;
 }
 
 .mentorama h2{
-  font-family: 'Lato';
+  font-family: 'Lato',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -578,9 +578,8 @@ color: #0B1D03;
 /* Form patness-----------*/
 
 .container-all-itens{
-  position: fixed;
-  right: 0;
-  top: 0;
+  display: flex;
+  justify-content: flex-end;
 
   width: 100%;
   height: 800px;
@@ -611,7 +610,7 @@ color: #0B1D03;
 }
 
 .name-product-form h2{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -635,7 +634,7 @@ color: #0B1D03;
 }
 
 .product-text-form h2{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -648,7 +647,7 @@ color: #0B1D03;
 
 .product-text-form h3{
 margin-top: 3px;
-font-family: 'Lato';
+font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -659,7 +658,7 @@ color: #0B1D03;
 
 .product-text-form h4{
 margin-top: 9px;
-font-family: 'Lato';
+font-family: 'Lato'sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
@@ -707,7 +706,7 @@ color: #A0996C;
 }
 
 .title-form h2{
-  font-family: 'lato';
+  font-family: 'lato',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -741,7 +740,7 @@ color: #A0996C;
 
   padding-left: 28px;
   padding-top: 4px;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -765,7 +764,7 @@ color: #A0996C;
 
   padding-left: 28px;
   padding-top: 4px;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -789,7 +788,7 @@ color: #A0996C;
   
   padding-left: 28px;
   padding-top: 4px;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -813,7 +812,7 @@ color: #A0996C;
 
   padding-left: 28px;
   padding-top: 4px;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -832,7 +831,7 @@ color: #A0996C;
 .coment textarea{
   padding-left: 28px;
   padding-top: 24px;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -854,7 +853,7 @@ color: #A0996C;
   height: 50px;
   background: #0B1D03;
   border-radius: 4px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
