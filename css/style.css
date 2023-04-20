@@ -183,7 +183,7 @@ color: #0B1D03;
 }
 
 .products-02{
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 .container-product{
@@ -193,14 +193,14 @@ color: #0B1D03;
 }
 
 .product{
-  width: 459px;
-  height: 600px;
+  width: 359px;
+  height: 400px;
   background: #F7F1E6;
   border-radius: 8px;
 }
 
 .product p{
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
@@ -217,32 +217,37 @@ color: #0B1D03;
 }
 
 .product img{
-  padding-top: 90px;
-  margin-left: 130px;
+  width: 152px;
+  height: 196px;
+  padding-top: 60px;
+  margin-left: 100px;
   margin-top: -50px;
 }
 
 .product-price{
-  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  padding-top: 5px;
 }
 
 .first-value{
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 50px;
   text-align: center;
-  padding-left: 130px;
+  padding-left: 100px;
   
   color: #0B1D03;
 }
 
 .second-value{
+  align-self: center;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 38px;
   letter-spacing: 0.04em;  
   
@@ -251,13 +256,14 @@ color: #0B1D03;
 
 .button-kart{
   cursor: pointer;
-  margin-left: 32px;
-  margin-top: 95px;
+  margin-top: 20px;
+  margin-left: 8%;
 }
 
 .product button{
-  height: 76px;
-  width: 395px;
+  
+  height: 56px;
+  width: 300px;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
