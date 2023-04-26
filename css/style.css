@@ -308,7 +308,7 @@ color: #0B1D03;
 }
 
 .catalog{
-  padding-bottom: 125px;
+  padding-bottom: 80x;
 }
 
 .container-catalog{
@@ -319,8 +319,8 @@ color: #0B1D03;
 }
 
 .catalog-one{
-  width: 704px;
-  height: 560px;
+  width: 604px;
+  height: 460px;
   background-image: url("../img/cafécru.png");
 }
 
@@ -328,18 +328,18 @@ color: #0B1D03;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 46px;
   line-height: 60px;
   color: #FFFCF6; 
   padding-left: 20px;
-  padding-top: 395px;
+  padding-top: 295px;
 }
 
 .catalog-one p{
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   padding-top: 30px;
   
@@ -351,8 +351,8 @@ color: #0B1D03;
 }
 
 .catalog-two{
-  width: 704px;
-  height: 560px;
+  width: 604px;
+  height: 460px;
   background-image: url("../img/Rectangle\ 20.png");
 }
 
@@ -360,18 +360,18 @@ color: #0B1D03;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 46px;
   line-height: 60px;
   color: #FFFCF6; 
   padding-left: 20px;
-  padding-top: 395px;
+  padding-top: 295px;
 }
 
 .catalog-two p{
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   padding-top: 30px;
   
