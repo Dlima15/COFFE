@@ -288,8 +288,10 @@ color: #0B1D03;
 .services{
   display: inline-block;
   justify-content: space-between;
-  padding: 80px;
+  padding: 40px;
+  margin: 15px;
   align-items: center;
+  justify-content: center;
 }
 
 .services p{
