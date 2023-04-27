@@ -284,14 +284,44 @@ color: #0B1D03;
   border-radius: 4px;
   background-position: 0 150px;
 }
+/* services abaixo*/
+.services{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.image-text-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+.image-text-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-text-container p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*.box-services{
+  margin-top: ;
+}
 
 .services{
   display: inline-block;
-  justify-content: space-between;
-  padding: 40px;
-  margin: 15px;
-  align-items: center;
-  justify-content: center;
+}
+
+.services-entrega{
+  background-image: url("../img/caminhao.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 .services p{
@@ -306,6 +336,7 @@ color: #0B1D03;
   
   color: #0B1D03;
 }
+*/
 
 .catalog{
   padding-bottom: 80x;
