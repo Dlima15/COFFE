@@ -48,12 +48,11 @@
   cursor: pointer;
   height: 30px;
   width: 28px;
-  padding: 18px;
+  padding-top: 18px;
 }
 
 .slider-tracks{
   display: flex;
-  margin-left: 90px;
   margin-top: 90px;
 }
 
@@ -76,6 +75,10 @@
   margin-right: 8px;
 }
 
+.prelude-holder{
+  margin-left: 26px;
+}
+
 .prelude-content h2{
 font-family: 'Playfair Display';
 font-style: normal;
@@ -84,8 +87,6 @@ font-size: 70px;
 line-height: 84px;
 
 color: #FFFFFF;
-
-padding-left: 90px;
 padding-top: 50px;
 
 }
@@ -96,7 +97,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 40px;
-padding-left: 90px;
 padding-top: 50px;
 
 color: #FFFFFF;
@@ -107,7 +107,6 @@ color: #FFFFFF;
   width: 56px;
   height: 56px;
   padding-top: 70px;
-  margin-left: 90px;
 }
 
 .arrow-right{
@@ -115,7 +114,6 @@ color: #FFFFFF;
   width: 56px;
   height: 56px;
   padding-top: 70px;
-  margin-left: 20px;
 }
 
 .slider-controls{
