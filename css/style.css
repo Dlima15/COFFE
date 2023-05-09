@@ -175,28 +175,23 @@ color: #0B1D03;
   
   color: #A0996C;
 }
-
-.product{
-  padding-top: 10px;
-  margin-left: 18px;
-  margin-right: 18px;
-
+ /* INICIO seção da caixa de produtos a partir daqui  */
+ .product{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 60px;
+  max-width: 459px;
+  max-height: 560px;
+  background: #F7F1E6;
+  border-radius: 8px;
+  padding: 18px;
 }
-
 
 .container-product{
   display: flex;
   justify-content: center;
   margin-left: 20px;
   padding-top: 32px;
-}
-
-.product{
-  width: 459px;
-  height: 400px;
-  background: #F7F1E6;
-  border-radius: 8px;
-  padding: 18px;
 }
 
 .product p{
@@ -282,25 +277,31 @@ color: #0B1D03;
   border-radius: 4px;
   background-position: 0 150px;
 }
-/* services abaixo*/
+
+ /* FIM seção da caixa de produtos a partir daqui */
+
+/* xxxxxxxxxxxxxxxInicio da Seção dos Serviços xxxxxxxxxxx*/
 .services{
-  margin-top: 15%;
-  margin-left: 15%;
-  margin-right: 15%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 150px;
 }
 
 .image-text-container {
-  margin-left: 13px;
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
   margin-bottom: 20px;
   text-align: center;
-  padding: 30px;
+  justify-content: space-between;
 }
 
 .image-text-container img {
-  max-width: 100%;
+  width: 100px;
   height: auto;
 }
 
@@ -310,7 +311,7 @@ color: #0B1D03;
   line-height: 1.5;
 }
 
-
+/*xxxxxxxxxxx Fim da seção dos serviços xxxxxxxxx */
 .catalog{
   padding-bottom: 80x;
 }
