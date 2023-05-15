@@ -176,30 +176,30 @@ color: #0B1D03;
   color: #A0996C;
 }
  /* INICIO seção da caixa de produtos a partir daqui  */
+
  .product{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 32px;
   padding-top: 60px;
-  max-width: 459px;
-  max-height: 560px;
+  width: 38%;
   background: #F7F1E6;
   border-radius: 8px;
-  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-product{
+  margin: 32px;
   display: flex;
-  justify-content: center;
-  margin-left: 20px;
-  padding-top: 32px;
 }
 
 .product p{
-  padding-top: 10px;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 150%;
   line-height: 28px;
   /* identical to box height, or 117% */
   
@@ -212,18 +212,18 @@ color: #0B1D03;
 }
 
 .product img{
-  width: 152px;
-  height: 196px;
-  padding-top: 60px;
-  margin-left: 114px;
-  margin-top: -50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  width: 35%;
+
 }
 
 .product-price{
   
   align-items: center;
   display: flex;
-  padding-top: 25px;
+
   
   justify-content: center;
 }
@@ -232,7 +232,7 @@ color: #0B1D03;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 180%;
   line-height: 50px;
   text-align: center;
   
@@ -244,7 +244,7 @@ color: #0B1D03;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 150%;
   line-height: 38px;
   letter-spacing: 0.04em;  
   
@@ -253,15 +253,15 @@ color: #0B1D03;
 
 .button-kart{
   cursor: pointer;
-  margin-top: 20px;
   align-items: center;
 }
 
 .product button{
+  margin-top: 5%;
   justify-content: center;
 
-  height: 66px;
-  width: 360px;
+  height: 40%;
+  width: 85%;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
