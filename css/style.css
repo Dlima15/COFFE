@@ -257,10 +257,11 @@ color: #0B1D03;
 }
 
 .product button{
+  margin-bottom: 5%;
   margin-top: 5%;
   justify-content: center;
 
-  height: 40%;
+  height: 80px;
   width: 85%;
   font-family: 'Manrope';
   font-style: normal;
