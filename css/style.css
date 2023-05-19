@@ -122,7 +122,7 @@ color: #FFFFFF;
 }
 
 .container-content01{
-  padding: 100px;
+  padding: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -155,7 +155,7 @@ color: #0B1D03;
 }
 
 .container-content02{
-  padding: 100px;
+  padding: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -163,7 +163,7 @@ color: #0B1D03;
 .title h2{
   width: 370px;
 
-  padding-left: 80px;
+  padding-left: 5%;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
@@ -177,6 +177,15 @@ color: #0B1D03;
   color: #A0996C;
 }
  /* INICIO seção da caixa de produtos a partir daqui  */
+  .products{
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+
+  .products-02{
+    margin-left: 1%;
+    margin-right: 3%;
+  }
 
  .product{
   margin-left: 32px;
@@ -289,8 +298,8 @@ color: #0B1D03;
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
-  margin-left: 100px;
-  margin-right: 150px;
+  margin-left: 3.99%;
+  margin-right: 3.99%;
 }
 
 .image-text-container {
@@ -316,16 +325,20 @@ color: #0B1D03;
 /*xxxxxxxxxxx Fim da seção dos serviços xxxxxxxxx */
 
 /*xxxxxxxxxxx Inicio seção dos Catalogos xxxxxxxxx */
-.catalog-one,
-.catalog-two {
-  margin: 0 80px; 
-}  
 
+.catalog-one{
+  margin-left: 3.99%;
+  margin-right: 15.9%;
+}
+
+.catalog-two{
+  margin-right: 3.99%;
+}
 .container-catalog{
     display: flex;
     justify-content: center;
     margin-top: 2%;
-  
+    margin-bottom: 2%;
   }
 
   .catalog-one{
@@ -394,7 +407,8 @@ color: #0B1D03;
 
 /*xxxxxxxxxxx Fim da seção dos catalogos xxxxxxxxx */
 
-/*xxxxxxxxxxx Inicio da seção dos Forms xxxxxxxxx */
+/*xxxxxxxxxxx Inicio da seção do Mapa xxxxxxxxx */
+
 .map{
   background: #FFFFFF;
   width: 100%;
@@ -409,7 +423,7 @@ color: #0B1D03;
   
   color: #0B1D03;
 
-  margin-left: 80px;
+  margin-left: 3.99%;
   padding-top: 25px;
   padding-bottom: 50px;
 }
@@ -419,6 +433,8 @@ color: #0B1D03;
   justify-content: center;
   align-items: center;
   height: 8vh; 
+  margin-left: 0.99;
+  margin-right: 0.9%;
 }
 
 .container-form select{
@@ -468,10 +484,11 @@ color: #0B1D03;
 /*xxxxxxxxxxx Inicio da seção dos Forms xxxxxxxxx */
 .local img{
   
-  width: 100%;
+  width: 96%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin-left: 1%;
+  margin-right: 3.99%;
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
@@ -541,6 +558,7 @@ color: #0B1D03;
 
 .social-net{
   padding-top: 50px;
+  margin-right: 3%;
 }
 
 .products-footer{
