@@ -297,7 +297,7 @@ color: #0B1D03;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 13%;
+  margin-top: 8%;
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -312,99 +312,52 @@ color: #0B1D03;
 }
 
 .image-text-container img {
-  width: 100px;
+  width: 70px;
   height: auto;
 }
 
 .image-text-container p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.5;
+  margin-top: 25%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+
+
+text-align: center;
+letter-spacing: 0.04em;
+
+
+
+color: #0B1D03;
 }
 
 /*xxxxxxxxxxx Fim da seção dos serviços xxxxxxxxx */
 
 /*xxxxxxxxxxx Inicio seção dos Catalogos xxxxxxxxx */
 
-.catalog-one{
-  margin-left: 3.99%;
-  margin-right: 15.9%;
+.catalog {
+  background-color: red;
+  /*background-image: url("../img/cafécru.png");
+  background-repeat: no-repeat;*/
+  width: calc(50% - 170px); 
+  height: 700px;
+  margin-bottom: 10px; 
+  float: left; 
 }
 
-.catalog-two{
-  margin-right: 3.99%;
+#img-one{
+  background-image: url("../img/cafécru.png");
+  margin-left: 80px;
+  margin-right: 20px;
 }
-.container-catalog{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 8%;
-  }
 
-  .catalog-one{
-    width: 60%;
-    background-image: url("../img/cafécru.png");
-    background-repeat: no-repeat;
-  }
-
-  .catalog-one h2{
-    margin-left: 15px;
-    margin-top: 400px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;    
-    color: #FFFCF6;
-  }
-
-  .catalog-one p{
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-top: 25px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 26px;
-    
-    letter-spacing: 0.04em;
-    
-    color: #FFFCF6;
-  }
-
-  .catalog-two{
-    width: 40%;
-    background-image: url("../img/Rectangle\ 15.png");
-    background-repeat: no-repeat;
-  }
-
-  .catalog-two h2{
-    margin-left: 15px;
-    margin-top: 400px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;    
-    color: #FFFCF6;
-  }
-
-  .catalog-two p{
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-top: 25px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 26px;
-    
-    letter-spacing: 0.04em;
-    
-    color: #FFFCF6;
-  }
-
+#img-two{
+  background-image: url("../img/Rectangle\ 15.png");
+  margin-right: 80px;
+  margin-left: 20px;
+}
 /*xxxxxxxxxxx Fim da seção dos catalogos xxxxxxxxx */
 
 /*xxxxxxxxxxx Inicio da seção do Mapa xxxxxxxxx */
