@@ -337,26 +337,55 @@ color: #0B1D03;
 
 /*xxxxxxxxxxx Inicio seção dos Catalogos xxxxxxxxx */
 
+.container-catalog{
+  margin-top: 40px;
+}
+
 .catalog {
   background-color: red;
   /*background-image: url("../img/cafécru.png");
   background-repeat: no-repeat;*/
-  width: calc(50% - 170px); 
+  width: calc(50% - 160px); 
   height: 700px;
   margin-bottom: 10px; 
-  float: left; 
+  float: left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.catalog h2{
+  margin-left: 40px;
+  margin-top: 520px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #FFFCF6;
+}
+
+.catalog p{
+  margin-left: 40px;
+  margin-top: 24px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFCF6;
 }
 
 #img-one{
   background-image: url("../img/cafécru.png");
-  margin-left: 80px;
-  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #img-two{
-  background-image: url("../img/Rectangle\ 15.png");
-  margin-right: 80px;
-  margin-left: 20px;
+  background-image: url("../img/Rectangle\ 20.png");
+  background-size: cover;
+  background-position: center;
 }
 /*xxxxxxxxxxx Fim da seção dos catalogos xxxxxxxxx */
 
