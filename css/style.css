@@ -394,6 +394,7 @@ color: #0B1D03;
 .map{
   background: #FFFFFF;
   width: 100%;
+  margin-top: 850px;
 }
 
 .title-map h2{
@@ -406,21 +407,20 @@ color: #0B1D03;
   color: #0B1D03;
 
   margin-left: 3.99%;
-  padding-top: 2%;
-  padding-bottom: 50px;
 }
 
 .container-form{
+  margin-top: 60px;
+  width: calc(100% - 160px);
+  margin-left: 80px;
+  margin-right: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh; 
-  margin-left: 0.99;
-  margin-right: 0.9%;
 }
 
 .container-form select{
-  margin-right: 10px;
+  margin-right: 1%;
   width: 30%;
   height: 56px;
   border: 2px solid #0B1D03;
@@ -457,29 +457,29 @@ color: #0B1D03;
 
 
 .container-form input{
-  width: 60%;
+  width: 70%;
   height: 50px;
   border: 2px solid #0B1D03;
   border-radius: 4px;
 }
 
-/*xxxxxxxxxxx Inicio da seção dos Forms xxxxxxxxx */
+/*xxxxxxxxxxx Inicio da seção dos Footer xxxxxxxxx */
 .local img{
-  
+  margin-top: 40px;
   width: 97%;
   height: auto;
   display: block;
-  margin-left: 1%;
-  margin-right: 3.99%;
-  max-width: 100%;
+  width: calc(100% - 160px);
   height: auto;
   box-sizing: border-box;
-  padding: 50px;
   border: none;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .footer{
   background: #F7F1E6;
+  margin-top: 40px;
 }
 
 .footer-logo{
